@@ -76,7 +76,7 @@ return userDetailsManager;
                                 .requestMatchers("/admin").hasRole("ADMIN")
                                 .requestMatchers("/manager").hasRole("MANAGER")
 
-4
+
 
                         )
                 .formLogin(form -> form
