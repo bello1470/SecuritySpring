@@ -17,6 +17,15 @@ import org.springframework.security.web.SecurityFilterChain;
 public class SecurityConfig {
 
 
+    @Bean
+    public  UserDetailsService userDetailsService(){
+
+        return null;
+    }
+
+
+    /*
+
     // this is an interface, so we will use the implemetation
     //which is inMemoryUserDetails manager to manage the users
 
@@ -49,6 +58,8 @@ public class SecurityConfig {
 return userDetailsManager;
 
     }
+*/
+
 
     @Bean
     public PasswordEncoder passwordEncoder(){
