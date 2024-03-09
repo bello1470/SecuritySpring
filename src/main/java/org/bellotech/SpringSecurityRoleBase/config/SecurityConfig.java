@@ -66,6 +66,7 @@ return userDetailsManager;
         // why we use the getUnstance() is bcus this class has no constructor
     }
 
+    /*
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
@@ -91,4 +92,6 @@ return userDetailsManager;
         return http.build();
 
     }
+
+     */
 }
