@@ -6,12 +6,10 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.Optional;
 
+// (1) first stage =
+
 public interface UserRepository extends JpaRepository<User, Integer> {
 
-    @Query(
-            """
-                    SELECT u FROM u WHERE u.username = :username
-                    """
-    )
+    @Query("select s from User s where s.username = ?1")
     Optional<User> findUSerByUsername(String username);
 }
