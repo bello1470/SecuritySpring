@@ -14,9 +14,9 @@ public class UserController {
         return "Wellcome to ADMIN PAGE";
     }
 
-    @GetMapping("/manager")
-    public String manager(){
-
-        return "Wellcome to MANAGER PAGE";
-    }
+//    @GetMapping("/manager")
+//    public String manager(){
+//
+//        return "Wellcome to MANAGER PAGE";
+//    }
 }
