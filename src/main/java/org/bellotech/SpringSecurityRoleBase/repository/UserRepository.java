@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.Optional;
 
-// (1) first stage =
+// (1) first stage = repo
 
 public interface UserRepository extends JpaRepository<User, Integer> {
 
