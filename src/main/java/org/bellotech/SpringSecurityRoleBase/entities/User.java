@@ -18,6 +18,7 @@ public class User {
     private String username;
     private  String password;
 
+    // many to may mapping
     @ManyToMany(fetch = FetchType.EAGER)
 
     @JoinTable(
