@@ -11,7 +11,7 @@ import java.util.Optional;
 public interface UserRepository extends JpaRepository<User, Integer> {
 
 
-    //quary base
+    //quary base jpa
 
     @Query("select s from User s where s.username = ?1")
     Optional<User> findUSerByUsername(String username);
